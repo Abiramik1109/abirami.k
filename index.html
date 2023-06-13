@@ -1,0 +1,269 @@
+<html>
+
+<head>
+    <title>web page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<style>
+    .flex-container {
+        display: flex;
+        background-color: white;
+        padding: 1px;
+        align-items: center;
+        flex-wrap: row;
+        flex-direction: row;
+        color: black;
+        float: none;
+    }
+
+    .flex-container>div {
+        justify-content: center;
+        font-size: 20px;
+        height: 50px;
+        width: 120px;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-areas: 'header header header header header header'
+            'left left left right right right'
+            'footer footer footer footer footer footer';
+    }
+
+    .left,
+    .right {
+        padding: 10px;
+        height: 550px;
+        width: 650px;
+    }
+
+    .left {
+        grid-area: left;
+        width: 800px;
+    }
+
+    .right {
+        grid-area: right;
+        text-align: center;
+        width: 550;
+        color: white;
+        padding-top: 150px;
+    }
+
+    .footer {
+        grid-area: footer;
+        padding: 10px;
+        text-align: center;
+    }
+    .carousel-inner{
+            height: 500px;
+            width: 800px;
+    }
+    .flex-container1 {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: white;
+}
+
+.flex-container1 > div {
+  background-color: #f1f1f1;
+  width: 400px;
+  margin: 10px;
+  text-align: center;
+  line-height: 400px;
+  font-size: 30px;
+}
+.img{
+    text-decoration: none;
+    color: none;
+}
+.img:hover{
+color: deeppink;
+}
+</style>
+
+<body>
+    <div class="flex-container">
+        <div>
+            <h3><b>stokes</h3></b>
+        </div>
+        <div>home</div>
+        <div>feature</div>
+        <div>page</div>
+        <div>profile</div>
+        <div>big</div>
+        <div>element</div>
+        <div>shop</div>
+
+        <div><i class="fa-brands fa-instagram"></i></div>
+        <div><i class="fa-brands fa-facebook"></i></div>
+        <div><i class="fa-brands fa-twitter"></i></div>
+        <div><i class="fa-solid fa-magnifying-glass"></i></div>
+        <div><i class="fa-solid fa-xmark"></i></div>
+    </div>
+
+    <div class="grid-container">
+        <div class="right" style="background-color: black;">
+            <div>
+                <h3>creating websites<br>
+                    that engage users.</h3><br>
+                <h6>Don't wait. The time will never be just right<br>
+                    The power of imagination makes us<br> infinite. life is trying things to see of the
+                    work</h6><br><br><br>
+                <h6>Or browse the Marketplace</h6>
+                <button class="btn" type="button"
+                    style="margin-bottom: 100px; background-image: linear-gradient(red,deeppink);">Discover
+                    more</button>
+            </div>
+        </div>
+        <div class="left" style="background-image:linear-gradient(violet,deeppink);">
+            <img src="https://media.istockphoto.com/id/1213212772/vector/abstract-blurred-background-defocused-purple-gradient.jpg?s=612x612&w=0&k=20&c=vv4rnHYR9pg8cXpkAWnGt55GUz2K4hqGA9lSMKPaBWg="
+                width="780px" height="530px">
+            <br><br>
+        </div>
+    </div>
+    <br><br>
+    <div class="container-fluid">
+        <div class="grid row">
+            <div class="g-col-4 bg-light text-center"><br>
+                <div><i class="fa-regular fa-square fa-lg" style="color: #0000ff;"></i></div><br>
+                <h3>incredable support</h3><br>
+                <h6>Totam ipsam maxmime sed deserunt<br>laborum, tempora quas quod cum<br>iste, sint! corporis tenetum
+                </h6><br>
+                <button class="btn" type="button" style="margin-bottom: 100px;">Learn more ></button>
+            </div>
+
+            <div class="g-col-4 bg-light text-center"><br>
+                <div><i class="fa-solid fa-circle-half-stroke" style="color: #0000ff;"></i></div>
+                <h3>Fully responsive design</h3><br>
+                <h6>Nam cum minima expedita autem<br>voluptatum porro consequntur quas<br>
+                    perspiciatis placeat ex eligendinobismo</h6><br>
+                <button class="btn" type="button" style="margin-bottom: 100px;">Learn more ></button>
+            </div>
+
+            <div class="g-col-4 bg-light text-center"> <br>
+                <div><i class="fa-sharp fa-regular fa-clock" style="color: #0000ff;"></i></div>
+                <h3>Unique design concept</h3><br>
+                <h6>id, consequsntur! vero nulla nam eun<br>atque, natus repellat quibusdam laboriosam<br>
+                    sit accusamus neque, vitae ea.</h6><br>
+                <button class="btn" type="button" style="margin-bottom: 100px;">Learn more ></button>
+            </div>
+
+            <div class="g-col-12  text-center text-primary">
+                <h6>about stokes agency</h6>
+            </div>
+            <div class="g-col-12  text-center fs-2">Unique, truly responsive and functional<br>websites</div>
+            <br><br>
+        </div>
+        <br><br>
+
+        <div class="grid row">
+            <div class="g-col-6  text-center text-primary">
+                <img src="https://parade.com/.image/t_share/MTkwNTgxMjMyNjM2NjY3MDA1/nature-quotes-26.jpg" width="600"
+                    height="450">
+            </div>
+
+            <div class="g-col-6 text-center fs-6">Nature, in the broadest sense, is the physical world or universe.
+                "Nature" can refer<br>
+                to the phenomena of the physical world, and also to life in general.
+                <div class="container" style="margin-top: 10%; width: 600px; padding-left: 100px;">
+                    <div class="accordion" id="Accordion1">
+                        <div class="accordion-item">
+                            <button type="button" class="accordion-button " data-bs-toggle="collapse"
+                                data-bs-target="#One">water</button>
+                            <div id="One" class="accordion-collapse collapse" data-bs-parent="#Accordion1">
+                                <div class="water">
+                                    <p>Water is an inorganic compound with the chemical formula H 2O. It is a
+                                        transparent, tasteless, odorless, and nearly colorless chemical substance, and
+                                        it is </p>
+                                </div>
+                            </div><br><br>
+
+                            <div class="accordion-collapse">
+                                <p>First published in 1869, Nature is the world's leading multidisciplinary science
+                                    journal. Nature publishes the finest peer-reviewed research that drives ..</p>
+                            </div>
+
+
+                            <div class="accordion-item">
+                                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse"
+                                    data-bs-target="#Two">tree</button>
+                                <div id="Two" class="accordion-collapse collapse" data-bs-parent="#Accordion1">
+                                    <div class="tree">
+                                        <p>In botany, a tree is a perennial plant with an elongated stem, or trunk,
+                                            usually supporting branches and leaves. In some usages, the definition of a
+                                            tree . </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse"
+                                data-bs-target="#Three">mountain</button>
+                            <div id="Three" class="accordion-collapse collapse" data-bs-parent="#Accordion1">
+                                <div class="mountain">
+                                    <p>A mountain is an elevated portion of the Earth's crust, generally with steep
+                                        sides that show significant exposed bedrock. Although definitions </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><br><br>
+            </div>
+        </div><br><br>
+        <div class="container-fluid">
+            <div class="grid row">
+                <div class="g-col-12 text-center text-primary">Featrued works
+                </div>
+                <div class="g-col-12 text-center">
+                    <h4>Have a project in mind? Let's build it</h4>
+                </div>
+                </div><br><br>
+                <div class="flex-container1">
+                    <div>
+                        <img src="https://w0.peakpx.com/wallpaper/265/481/HD-wallpaper-nature.jpg" width="400px" height="400px">
+                    </div>
+                    <div> <img src="https://wordzz.com/wp-content/uploads/2023/04/Nature.jpeg"width="400px" height="400px">
+                    </div>
+                    <div><img src="https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8="width="400px" height="400px">
+                    </div>  
+                    <div><img src="https://e0.pxfuel.com/wallpapers/163/906/desktop-wallpaper-beautiful-nature-with-girl-beautiful-girl-with-nature-and-moon-high-resolution-beautiful.jpg"width="400px" height="400px">
+                    </div>
+                    <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg0F4x4zNqeHqLKQuJdx8qosDVISONxZ2Zf7DQTyk&s"width="400px" height="400px">
+                    </div> 
+                    </div></div><br><br>
+                    <div class="container">
+                        <div class="grid row">
+                 <div class="g-col-12 text-center fs-2">Ultimate experience with story emotion<br>and purpose</div>
+                 <div class="g-col-12 text-center">Nature, in the broadest sense, is the physical <br>world or universe.</div>
+                 <div class="g-col-3 text-center fs-2">1564<br><h6>Project Completed</h6></div>
+                 <div class="g-col-3 text-center fs-2">2040<br><h6>Working Hours</h6></div>
+                 <div class="g-col-3 text-center fs-2">1972<br><h6>Happy clients</h6></div>
+                 <div class="g-col-3 text-center fs-2">1864<br><h6>Award Winning</h6></div>
+                 </div></div><br><br>
+                 <div class="container-fluid">
+                     <div class="grid row">
+            
+                 <div class="g-col-3 text-right"><p style="color: blue;">our team</p><h2>Over exports <br>workplace</h2><br><h6>
+                     Deserunt namo beatae coporis facere<br>optio explicabo natus<br><br><br>
+                     <button class="btn" type="button"
+                     style="margin-bottom: 100px; background-image: linear-gradient(red,deeppink);">Meet out team</button></div>
+                     <div class="g-col-3 text-center"><img src="https://images.pexels.com/photos/56866/garden-rose-red-pink-56866.jpeg?cs=srgb&dl=pexels-pixabay-56866.jpg&fm=jpg" height="370px" width="300px" class="img"><br><p><b>kobe taylor</b></p> <p style="color: gray;">web designer</div>
+                 <div class="g-col-3 text-center"><img src="https://images.unsplash.com/photo-1562690868-60bbe7293e94?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cm9zZSUyMGZsb3dlcnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80" width="300px" height="370px" style="margin-top: 100px;" class="img;"><br><p><b>skye peters</b></p><p style="color: gray;">developer</div>
+                 <div class="g-col-3 text-center"><img src="https://cdn.britannica.com/84/73184-050-05ED59CB/Sunflower-field-Fargo-North-Dakota.jpg" height="370px" width="300px"><br><p><b>hevirs bass</b></p><p style="color: gray;" class="img;">marketing</div>
+                   </div>
+                  </div>
+                    <div class="container">
+                        <div class="column">
+                            <div class="g-col-4 bg-dark"></div>
+                            <div class="g-col-4"></div>
+                            <div class="g-col-4"></div>
+
+                        </div>
+                    </div>
+                    </body>
+                    </html> 
